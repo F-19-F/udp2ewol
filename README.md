@@ -6,6 +6,8 @@
 make 
 make install
 /etc/init.d/udp2ewol start
+# if no error ,then start on startup
+/etc/init.d/udp2ewol enable
 ```
 ## TODO
 ### 1.IPV6 support
